@@ -12,9 +12,9 @@ function Header(props) {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse bg="light" sid="responsive-navbar-nav" >
           <Nav className="me-auto fs-4.5 " >
-            <Nav.Link className="zoom hover-underline-animation me-1 text-light" href="#home">{props.home}</Nav.Link>
-            <Nav.Link className="zoom hover-underline-animation me-1 text-light" href="#lmsPortal">{props.navLink1}</Nav.Link>
-            <Nav.Link className="zoom hover-underline-animation me-1 text-light" href="#jobPortal">{props.navLink2}</Nav.Link>
+            <Nav.Link className="zoom hover-underline-animation me-auto text-light" href="#home">{props.home}</Nav.Link>
+            <Nav.Link className="zoom hover-underline-animation me-auto text-light" href="#lmsPortal">{props.navLink1}</Nav.Link>
+            <Nav.Link className="zoom hover-underline-animation me-auto text-light" href="#jobPortal">{props.navLink2}</Nav.Link>
           </Nav>
           <Nav>
             <Nav.Link  className="zoom hover-underline-animation me-auto  fs-4.5 text-light" href="#contactUs">{props.contactUs} </Nav.Link>

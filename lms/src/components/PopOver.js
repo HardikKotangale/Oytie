@@ -14,6 +14,7 @@ function PopOver(props) {
       <Modal.Body>
         <p>
           Click the below button to chat with us: <br/><br/>
+          {/* <ReactWhatsapp number="+91 7030 20 0057" message="I am interested in joining a course!" style={{border:"none",borderRadius:"100px",background:"none"}}><Figure className="zoom me-1"><Figure.Image width={40} height={40} alt="50x50" src={props.handles1}/></Figure></ReactWhatsapp> */}
           <ReactWhatsapp class="btn btn-outline-success" number="+91 7030 20 0057" message="I am interested in joining a course!">WhatsApp Us</ReactWhatsapp>
         </p>
       </Modal.Body>

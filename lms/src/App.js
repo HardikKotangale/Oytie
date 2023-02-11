@@ -1,8 +1,6 @@
 import React from "react";
 import { useState, useEffect } from 'react';
-import Header from './components/Header'; 
-import Footer from './components/Footer'; 
-import PopOver from "./components/PopOver";
+import {Header,Footer,PopOver} from './index';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
@@ -23,7 +21,7 @@ function App() {
     <> 
       <Header home="Home" navLink1="LMS Portal" navLink2="Job Portal" contactUs="Contact Us" logo={oytieLogo}/>
       <Footer handles1={whatsAppLogo} handles2={instagramLogo} handles3={facebookLogo} handles4={youtubeLogo} handles5={linkedInLogo} contactUs1={callLogo} contactUs2={emailLogo}></Footer>
-      <PopOver show={modalShow} onHide={() => setModalShow(false)} />
+      <PopOver show={modalShow} onHide={() => setModalShow(false)}  />
       </>  
     );
 }
