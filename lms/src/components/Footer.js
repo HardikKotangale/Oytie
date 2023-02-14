@@ -1,6 +1,4 @@
-import Card from 'react-bootstrap/Card';
-import CardGroup from 'react-bootstrap/CardGroup';
-import Figure from 'react-bootstrap/Figure';
+import {Card,CardGroup,Figure} from 'react-bootstrap';
 import ReactWhatsapp from 'react-whatsapp';
 import Maps from './Maps';
 import './style.css'

@@ -6,7 +6,8 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Maps from "./components/Maps";
 import PopOver from "./components/PopOver";
-export {Header,Footer,Maps,PopOver}
+import CardCarousel from "./components/CardCarousel";
+export {Header,Footer,Maps,PopOver,CardCarousel}
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
