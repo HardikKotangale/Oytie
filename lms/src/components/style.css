@@ -3,9 +3,18 @@
 
 }
 
+.AboutUs{
+  padding: 3rem 5rem 3rem 5rem;
+  margin:0rem 3rem 2rem 3rem;
+}
+
 .CardCarousel{
   height: 10rem;
   width: 10rem;
+}
+
+.Queries{
+  background-color: #0a1e7d;  
 }
 
 .Logo{  

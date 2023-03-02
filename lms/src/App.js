@@ -1,7 +1,7 @@
 import React from "react";
 
 import { useState, useEffect } from 'react';
-import {Header,Footer,PopOver,CardCarousel} from './index';
+import {Header,Footer,PopOver,CardCarousel,Queries,AboutUs} from './index';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
@@ -31,9 +31,9 @@ function App() {
       <Header home="Home" navLink1="About Us" navLink2="LMS Portal" navLink3="Job Portal" navLink4="Services" 
               dropDownlink1="Manfacurting" dropDownlink2="Design and Development" dropDownlink3="LMS Services" dropDownlink4="Job Services"
               contactUs="Contact Us" logo={oytieLogo}/>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium, quisquam culpa iusto tempore maxime est id blanditiis dolor in vero provident aliquid reprehenderit. Voluptatum dignissimos recusandae hic, consectetur vel quisquam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quia repellendus atque dolore deserunt nam architecto obcaecati officia facilis? Vel rerum cumque impedit doloremque illo numquam tempore nesciunt? Optio, vitae! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo omnis animi hic laboriosam aliquam laborum, debitis ipsam consequatur commodi iure non pariatur repellendus nihil labore mollitia? Cum doloremque ratione atque!</p>
+      <AboutUs></AboutUs>
       <CardCarousel images1={Coditas} images2={MaxSecure} images3={rajaSoftwareLabs} images4={zencon} images5={quickenSol} images6={zensoft} />
-    
+      <Queries></Queries>
       <Footer handles1={whatsAppLogo} handles2={instagramLogo} handles3={facebookLogo} handles4={youtubeLogo} handles5={linkedInLogo} contactUs1={callLogo} contactUs2={emailLogo}></Footer>
       <PopOver show={modalShow} onHide={() => setModalShow(false)}  />
       </>  
