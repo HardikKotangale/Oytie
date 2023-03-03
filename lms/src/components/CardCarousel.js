@@ -10,7 +10,6 @@ function CardCarousel(props) {
       <Carousel.Item><img className="d-block w-100" src={props.images4} alt={props.images4}/></Carousel.Item>
       <Carousel.Item><img className="d-block w-100" src={props.images5} alt={props.images5}/></Carousel.Item>
       <Carousel.Item><img className="d-block w-100" src={props.images6} alt={props.images6}/></Carousel.Item>
-    
     </Carousel>
     </div>
   );
